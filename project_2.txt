@@ -1,0 +1,7 @@
+program next;
+var
+ n,p:LongInt;
+begin
+Read(n,p);
+Write(n+(p-n mod p)mod p);
+end.
